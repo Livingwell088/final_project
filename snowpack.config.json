@@ -1,0 +1,13 @@
+{
+  "mount": {
+    "public": "/",
+    "views": "/"
+  },
+  "routes": [
+    {
+      "match": "routes",
+      "src": ".*",
+      "dest": "/index.html"
+    }
+  ]
+}
